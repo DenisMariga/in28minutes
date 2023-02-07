@@ -13,7 +13,7 @@ public class In28minutesApplication {
 		System.out.println(Context.getBean("address"));
 		System.out.println(Context.getBean("me"));
 		System.out.println(Context.getBean(person.class));
-
+        System.out.println(Context.getBean(person.class));
 		Arrays.stream(Context.getBeanDefinitionNames()).forEach(System.out::println);
 		
 	}
